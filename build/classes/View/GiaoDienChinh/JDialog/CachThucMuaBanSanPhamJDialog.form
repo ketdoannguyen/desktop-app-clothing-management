@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="C&#xe1;ch th&#x1ee9;c mua b&#xe1;n s&#x1ea3;n ph&#x1ea9;m"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-125,0,0,2,-114"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="640" height="350"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="ff" red="cc" type="rgb"/>
+                </Property>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="20" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="                                C&#xc1;CH TH&#x1ee8;C MUA B&#xc1;N &#xa;A. Ch&#x1ee9;c n&#x103;ng : Mua B&#xe1;n S&#x1ea3;n Ph&#x1ea9;m&#xa;B. &#x110;&#x1ed1;i t&#x1b0;&#x1ee3;ng s&#x1eed; d&#x1ee5;ng : Ng&#x1b0;&#x1edd;i qu&#x1ea3;n l&#xed; , nh&#xe2;n vi&#xea;n , kh&#xe1;ch h&#xe0;ng&#xa;C.H&#x1b0;&#x1edb;ng d&#x1eab;n s&#x1eed; d&#x1ee5;ng :&#xa;    I. Nh&#xe2;n vi&#xea;n&#xa;       - Nh&#xe2;n vi&#xea;n t&#x1b0; v&#x1ea5;n v&#xe0; b&#xe1;n s&#x1ea3;n ph&#x1ea9;m cho kh&#xe1;ch .&#xa;       - Tr&#xea;n giao di&#x1ec7;n , nh&#xe2;n vi&#xea;n &#x111;i&#x1ec1;n th&#xf4;ng tin s&#x1ed1; l&#x1b0;&#x1ee3;ng s&#x1ea3;n ph&#x1ea9;m                b&#xe1;n v&#xe0; c&#x1ea5;p b&#x1ead;c th&#x1ebb; kh&#xe1;ch h&#xe0;ng &#x111;&#x1ec3; nh&#x1ead;n gi&#x1ea3;m gi&#xe1; &#xa;       - Nh&#xe2;n vi&#xea;n h&#x1b0;&#x1edb;ng d&#x1eab;n kh&#xe1;ch h&#xe0;ng tham gia c&#xe1;c s&#x1ef1; ki&#x1ec7;n tr&#xf2;                   ch&#x1a1;i tr&#xea;n giao di&#x1ec7;n &#x111;&#x1ec3; nh&#x1ead;n th&#xea;m v&#x1ec1; m&#xe3; gi&#x1ea3;m gi&#xe1;&#xa;    II. Kh&#xe1;ch h&#xe0;ng&#xa;       - Kh&#xe1;ch h&#xe0;ng l&#x1ef1;a ch&#x1ecd;n s&#x1ea3;n ph&#x1ea9;m v&#xe0; s&#x1ed1; l&#x1b0;&#x1ee3;ng c&#x1ea7;n mua , cung               c&#x1ea5;p th&#x1ebb; kh&#xe1;ch h&#xe0;ng cho nh&#xe2;n vi&#xea;n &#x111;&#x1ec3; nh&#x1ead;n &#x111;&#x1b0;&#x1ee3;c gi&#x1ea3;m gi&#xe1;&#xa;       - Ch&#xe0;o m&#x1eeb;ng xu&#xe2;n sang , n&#xea;n c&#x1eed;a h&#xe0;ng c&#xf3; nhi&#x1ec1;u s&#x1ef1; ki&#x1ec7;n tr&#xf2;                 ch&#x1a1;i tr&#xfa;ng th&#x1b0;&#x1edf;ng nh&#x1ead;n th&#x1ebb; gi&#x1ea3;m gi&#xe1; ho&#x1eb7;c nh&#x1eef;ng ph&#x1ea7;n&#xa;           qu&#xe0; gi&#xe1; tr&#x1ecb; .Kh&#xe1;ch h&#xe0;ng s&#x1ebd; nh&#x1ead;n &#x111;&#x1b0;&#x1ee3;c s&#x1ef1; h&#x1b0;&#x1edb;ng d&#x1eab;n c&#x1ee7;a &#xa;           nh&#xe2;n vi&#xea;n &#x111;&#x1ec3; tham gia tr&#xf2; ch&#x1a1;i v&#xe0; nh&#x1ead;n v&#x1ec1; nhi&#x1ec1;u s&#x1ea3;n ph&#x1ea9;m               gi&#xe1; tr&#x1ecb;&#xa;       - Kh&#xe1;ch h&#xe0;ng nh&#x1ead;n s&#x1ea3;n ph&#x1ea9;m &#x111;&#xe3; mua v&#xe0; cung c&#x1ea5;p ph&#x1b0;&#x1a1;ng &#xa;          th&#x1ee9;c thanh to&#xe1;n cho nh&#xe2;n vi&#xea;n qu&#xe1;n&#xa;    III. Th&#x1ebb; kh&#xe1;ch h&#xe0;ng&#xa;        C&#xf3; 5 lo&#x1ea1;i th&#x1ebb; kh&#xe1;ch h&#xe0;ng l&#xe0; th&#x1ebb; t&#xe2;n th&#x1ee7; , th&#x1ebb; Titan , th&#x1ebb; VIP ,         th&#x1ebb; B&#x1ea1;ch Kim v&#xe0; th&#x1ebb; Kim C&#x1b0;&#x1a1;ng&#xa;           - Th&#x1ebb; T&#xe2;n Th&#x1ee7;     : Gi&#x1ea3;m gi&#xe1; &#x111;&#x1a1;n gi&#x1ea3;m &#x111;i 1%&#xa;           - Th&#x1ebb; Titan          : Gi&#x1ea3;m gi&#xe1; &#x111;&#x1a1;n gi&#x1ea3;m &#x111;i 2%&#xa;           - Th&#x1ebb; VIP            : Gi&#x1ea3;m gi&#xe1; &#x111;&#x1a1;n gi&#x1ea3;m &#x111;i 3%&#xa;           - Th&#x1ebb; B&#x1ea1;ch Kim    : Gi&#x1ea3;m gi&#xe1; &#x111;&#x1a1;n gi&#x1ea3;m &#x111;i 4%&#xa;           - Th&#x1ebb; Kim C&#x1b0;&#x1a1;ng : Gi&#x1ea3;m gi&#xe1; &#x111;&#x1a1;n gi&#x1ea3;m &#x111;i 5%&#xa;    IV. Ch&#x1ebf; &#x111;&#x1ed9; gi&#x1ea3;m gi&#xe1;&#xa;        - Kh&#xe1;ch h&#xe0;ng nh&#x1ead;n &#x111;&#x1b0;&#x1ee3;c gi&#x1ea3;m gi&#xe1; th&#xf4;ng tha th&#x1ebb; kh&#xe1;ch h&#xe0;ng ,          th&#xf4;ng qua s&#x1ef1; ki&#x1ec7;n tr&#xf2; ch&#x1a1;i &#x111;&#x1ec3; nh&#x1ead;n m&#xe3; &#xa;        - Kh&#xe1;ch h&#xe0;ng c&#xf2;n c&#xf3; th&#x1ec3; nh&#x1ead;n gi&#x1ea3;m gi&#xe1; theo gi&#xe1; tr&#x1ecb; mua h&#xe0;ng &#xa;             + T&#x1ed5;ng &#x111;&#x1a1;n h&#xe0;ng &lt; 100,000VN&#x110; : Gi&#x1ea3;m 0%&#xa;             + T&#x1ed5;ng &#x111;&#x1a1;n h&#xe0;ng &gt;= 100,000VN&#x110; : Gi&#x1ea3;m 1%&#xa;             + T&#x1ed5;ng &#x111;&#x1a1;n h&#xe0;ng &gt;= 1,000,000VN&#x110; : Gi&#x1ea3;m 2%&#xa;             + T&#x1ed5;ng &#x111;&#x1a1;n h&#xe0;ng &gt;= 2,000,000VN&#x110; : Gi&#x1ea3;m 4%&#xa;             + T&#x1ed5;ng &#x111;&#x1a1;n h&#xe0;ng &gt;= 3,000,000VN&#x110; : Gi&#x1ea3;m 6%&#xa;    V. Tr&#xf2; ch&#x1a1;i&#xa;     Trong m&#x1ed7;i tr&#xf2; ch&#x1a1;i s&#x1ebd; c&#xf3; nh&#x1eef;ng h&#x1b0;&#x1edb;ng d&#x1eab;n c&#xe1;ch th&#x1ee9;c v&#xe0; th&#x1ec3; l&#x1ec7; ri&#xea;ng .Q&#xfa;y kh&#xe1;ch tham gia tr&#xf2; ch&#x1a1;i vui v&#x1ebb; v&#xe0; l&#xe3;nh th&#x1ead;t nhi&#x1ec1;u qu&#xe0;&#xa;&#xa;       Ch&#xfa;c qu&#xfd; kh&#xe1;ch n&#x103;m m&#x1edb;i tr&#xe0;n &#x111;&#x1ea7;y vui v&#x1ebb; v&#xe0; h&#x1ea1;nh ph&#xfa;c"/>
+                <Property name="wrapStyleWord" type="boolean" value="true"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="North Resize Cursor"/>
+                </Property>
+                <Property name="doubleBuffered" type="boolean" value="true"/>
+                <Property name="dragEnabled" type="boolean" value="true"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="focusCycleRoot" type="boolean" value="true"/>
+                <Property name="focusTraversalPolicyProvider" type="boolean" value="true"/>
+                <Property name="inheritsPopupMenu" type="boolean" value="true"/>
+                <Property name="selectedTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="selectionColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="ff" red="cc" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
